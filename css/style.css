@@ -9,8 +9,8 @@
 :root {
   --color-hover-softRed: hsl(14, 88%, 65%);
   --color-header-isClicked: hsl(238, 29%, 16%);
-  --color-header-normal: hsl(237, 12%, 33%);
-  --color-normal-text: hsl(237, 12%, 33%);
+  --color-header-normal: hsl(237, 15%, 27%);
+  --color-normal-text: hsl(237, 11%, 60%);
   --color-dividers: hsl(240, 5%, 91%);
 }
 
@@ -34,6 +34,8 @@ h3 {
 
 h1 {
   color: hsl(238, 29%, 16%);
+  font-size: 3.4rem;
+  margin-bottom: 1.5rem;
 }
 
 h2 {
@@ -43,9 +45,12 @@ h2 {
 }
 
 /* A components of the faq */
+.faq__header {
+  text-align: center;
+}
 .faq__sections {
-  border: 1px solid green;
-  padding: 1.5rem 1rem;
+  border-bottom: 1px solid var(--color-dividers);
+  padding: 2rem 1rem;
 }
 
 .faq__sections-heading {
@@ -66,6 +71,5 @@ h2 {
 }
 
 .answer {
-  border: 1px solid green;
-  margin-top: 0.8rem;
+  margin-top: 1rem;
 }
