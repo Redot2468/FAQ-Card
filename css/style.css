@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --color-hover-softRed: hsl(14, 88%, 65%);
+  --color-header-isClicked: hsl(238, 29%, 16%);
+  --color-header-normal: hsl(237, 12%, 33%);
+  --color-normal-text: hsl(237, 12%, 33%);
+  --color-dividers: hsl(240, 5%, 91%);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: var(--color-normal-text);
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  color: hsl(238, 29%, 16%);
+}
+
+h2 {
+  color: var(--color-header-normal);
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+/* A components of the faq */
+.faq__sections {
+  border: 1px solid green;
+  padding: 1.5rem 1rem;
+}
+
+.faq__sections-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons i {
+  color: var(--color-hover-softRed);
+}
+.question {
+  transition: color 0.2s;
+  cursor: pointer;
+}
+
+.question:hover {
+  color: var(--color-hover-softRed);
+}
+
+.answer {
+  border: 1px solid green;
+  margin-top: 0.8rem;
+}
