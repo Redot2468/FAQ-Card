@@ -29,8 +29,10 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot2](https://user-images.githubusercontent.com/106917702/207321540-7f951836-057d-45a0-b7d9-ec90a5c482ec.png)
-![screenshot1](https://user-images.githubusercontent.com/106917702/207321549-eb882590-556f-4d1c-8349-667772f9d0e6.png)
+![screenshot2](https://user-images.githubusercontent.com/106917702/207322374-d663f5ec-3dfc-4dde-b825-522f84858dab.png)
+![screenshot1](https://user-images.githubusercontent.com/106917702/207322381-d69d94d6-7fc1-41a8-8d94-2def8658c9fa.png)
+
+
 
 
 
@@ -39,9 +41,6 @@ Users should be able to:
 - Solution URL:(https://your-solution-url.com)
 - Live Site URL:(https://faq-card-ridwan.netlify.app/)
 
-## My process
-![screenshot2](https://user-images.githubusercontent.com/106917702/207321394-1ff5fdba-7c6f-4c17-86ba-c30881f5d1d4.png)
-![screenshot1](https://user-images.githubusercontent.com/106917702/207321407-27c985b8-88cb-4869-84e6-3b01eb1ab3e0.png)
 
 ### Built with
 
